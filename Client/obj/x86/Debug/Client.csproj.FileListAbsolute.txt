@@ -1,0 +1,13 @@
+C:\Users\Omar\Downloads\KruskalAlgorithm\Client\bin\Debug\Client.exe.config
+C:\Users\Omar\Downloads\KruskalAlgorithm\Client\bin\Debug\Client.exe
+C:\Users\Omar\Downloads\KruskalAlgorithm\Client\bin\Debug\Client.pdb
+C:\Users\Omar\Downloads\KruskalAlgorithm\Client\bin\Debug\Kruskal.dll
+C:\Users\Omar\Downloads\KruskalAlgorithm\Client\bin\Debug\Kruskal.pdb
+C:\Users\Omar\Downloads\KruskalAlgorithm\Client\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Omar\Downloads\KruskalAlgorithm\Client\obj\x86\Debug\Kruskal.frmCost.resources
+C:\Users\Omar\Downloads\KruskalAlgorithm\Client\obj\x86\Debug\Kruskal.frmMain.resources
+C:\Users\Omar\Downloads\KruskalAlgorithm\Client\obj\x86\Debug\Client.Properties.Resources.resources
+C:\Users\Omar\Downloads\KruskalAlgorithm\Client\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Omar\Downloads\KruskalAlgorithm\Client\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Omar\Downloads\KruskalAlgorithm\Client\obj\x86\Debug\Client.exe
+C:\Users\Omar\Downloads\KruskalAlgorithm\Client\obj\x86\Debug\Client.pdb

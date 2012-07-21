@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b4404cc2-41e1-4666-b393-1aac91eb52e9" name="Omar@OMAR-PC 2012-07-03 15:46:25" runUser="Omar-PC\Omar" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e8b14e4a-3ec1-4273-9fab-e1255ea8e658">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\Omar\Downloads\KruskalAlgorithm\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Omar_OMAR-PC 2012-07-03 15_46_25">
+      <DeploymentItem filename="C:\Users\Omar\Downloads\KruskalAlgorithm\Kruskal\bin\Debug\Kruskal.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-03T15:46:25.2195059+02:00" queuing="2012-07-03T15:46:26.9856069+02:00" start="2012-07-03T15:46:27.3246263+02:00" finish="2012-07-03T15:50:07.6882303+02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="OMAR-PC" outcome="Error" timestamp="2012-07-03T15:50:07.6562285+02:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SolveTest" storage="c:\users\omar\downloads\kruskalalgorithm\unittests\bin\debug\unittests.dll" id="cbe29bfd-dc07-6cdc-730f-2d4d4d6932b7">
+      <Execution id="a258a39c-6c2f-4136-9982-9b6abfcb3b83" />
+      <TestMethod codeBase="C:/Users/Omar/Downloads/KruskalAlgorithm/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.KruskalTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SolveTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cbe29bfd-dc07-6cdc-730f-2d4d4d6932b7" executionId="a258a39c-6c2f-4136-9982-9b6abfcb3b83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a258a39c-6c2f-4136-9982-9b6abfcb3b83" testId="cbe29bfd-dc07-6cdc-730f-2d4d4d6932b7" testName="SolveTest" computerName="OMAR-PC" duration="00:03:40.1275905" startTime="2012-07-03T15:46:27.5606398+02:00" endTime="2012-07-03T15:50:07.6882303+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a258a39c-6c2f-4136-9982-9b6abfcb3b83">
+    </UnitTestResult>
+  </Results>
+</TestRun>

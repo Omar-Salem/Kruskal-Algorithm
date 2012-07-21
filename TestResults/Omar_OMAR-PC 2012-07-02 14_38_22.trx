@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="863261d2-ead1-4f5a-b6e5-630b68a0791e" name="Omar@OMAR-PC 2012-07-02 14:38:22" runUser="Omar-PC\Omar" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e8b14e4a-3ec1-4273-9fab-e1255ea8e658">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Omar_OMAR-PC 2012-07-02 14_38_22">
+      <DeploymentItem filename="C:\Users\Omar\Downloads\KruskalAlgorithm\Kruskal\bin\Debug\Kruskal.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-02T14:38:22.0354177+02:00" queuing="2012-07-02T14:38:22.0964212+02:00" start="2012-07-02T14:38:22.1234228+02:00" finish="2012-07-02T14:38:22.7334577+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="5" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="QuickSortTest" storage="c:\users\omar\downloads\kruskalalgorithm\unittests\bin\debug\unittests.dll" id="bbb236b5-352b-71a3-4fd1-2f589762cea1">
+      <Execution id="65dbb545-707f-4ef3-b2aa-b4faa559b281" />
+      <TestMethod codeBase="C:/Users/Omar/Downloads/KruskalAlgorithm/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.KruskalTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QuickSortTest" />
+    </UnitTest>
+    <UnitTest name="VertexConstructorTest" storage="c:\users\omar\downloads\kruskalalgorithm\unittests\bin\debug\unittests.dll" id="e32a97e2-bc53-e3e5-0d2d-e94f0d5c9e79">
+      <Execution id="12fcb664-a447-4251-9dcb-e92f91f0cf9e" />
+      <TestMethod codeBase="C:/Users/Omar/Downloads/KruskalAlgorithm/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.VertexTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VertexConstructorTest" />
+    </UnitTest>
+    <UnitTest name="JoinTest" storage="c:\users\omar\downloads\kruskalalgorithm\unittests\bin\debug\unittests.dll" id="20afa623-e4cd-64dd-57d9-3e5b66bfb31e">
+      <Execution id="9515f062-4347-4862-acac-ea3d1e6f9697" />
+      <TestMethod codeBase="C:/Users/Omar/Downloads/KruskalAlgorithm/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.VertexTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="JoinTest" />
+    </UnitTest>
+    <UnitTest name="GetRootTest" storage="c:\users\omar\downloads\kruskalalgorithm\unittests\bin\debug\unittests.dll" id="9a2a4324-7bde-9902-e1d1-b8ac4486169a">
+      <Execution id="3a0cf697-b022-4322-859f-909b106d590d" />
+      <TestMethod codeBase="C:/Users/Omar/Downloads/KruskalAlgorithm/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.VertexTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetRootTest" />
+    </UnitTest>
+    <UnitTest name="EdgeConstructorTest" storage="c:\users\omar\downloads\kruskalalgorithm\unittests\bin\debug\unittests.dll" id="76951416-b9ab-b723-fa03-cff84c86d7b9">
+      <Execution id="a3f09b5c-bdb0-4d94-8491-8153392c25d3" />
+      <TestMethod codeBase="C:/Users/Omar/Downloads/KruskalAlgorithm/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.EdgeTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EdgeConstructorTest" />
+    </UnitTest>
+    <UnitTest name="SolveTest" storage="c:\users\omar\downloads\kruskalalgorithm\unittests\bin\debug\unittests.dll" id="cbe29bfd-dc07-6cdc-730f-2d4d4d6932b7">
+      <Execution id="d9ad49e4-a390-42a4-af63-853951dba3f1" />
+      <TestMethod codeBase="C:/Users/Omar/Downloads/KruskalAlgorithm/UnitTests/bin/Debug/UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.KruskalTest, UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SolveTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="20afa623-e4cd-64dd-57d9-3e5b66bfb31e" executionId="9515f062-4347-4862-acac-ea3d1e6f9697" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76951416-b9ab-b723-fa03-cff84c86d7b9" executionId="a3f09b5c-bdb0-4d94-8491-8153392c25d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a2a4324-7bde-9902-e1d1-b8ac4486169a" executionId="3a0cf697-b022-4322-859f-909b106d590d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bbb236b5-352b-71a3-4fd1-2f589762cea1" executionId="65dbb545-707f-4ef3-b2aa-b4faa559b281" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbe29bfd-dc07-6cdc-730f-2d4d4d6932b7" executionId="d9ad49e4-a390-42a4-af63-853951dba3f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e32a97e2-bc53-e3e5-0d2d-e94f0d5c9e79" executionId="12fcb664-a447-4251-9dcb-e92f91f0cf9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9515f062-4347-4862-acac-ea3d1e6f9697" testId="20afa623-e4cd-64dd-57d9-3e5b66bfb31e" testName="JoinTest" computerName="OMAR-PC" duration="00:00:00.0246506" startTime="2012-07-02T14:38:22.1454240+02:00" endTime="2012-07-02T14:38:22.4974442+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9515f062-4347-4862-acac-ea3d1e6f9697">
+    </UnitTestResult>
+    <UnitTestResult executionId="a3f09b5c-bdb0-4d94-8491-8153392c25d3" testId="76951416-b9ab-b723-fa03-cff84c86d7b9" testName="EdgeConstructorTest" computerName="OMAR-PC" duration="00:00:00.0015248" startTime="2012-07-02T14:38:22.4994443+02:00" endTime="2012-07-02T14:38:22.5134451+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3f09b5c-bdb0-4d94-8491-8153392c25d3">
+    </UnitTestResult>
+    <UnitTestResult executionId="3a0cf697-b022-4322-859f-909b106d590d" testId="9a2a4324-7bde-9902-e1d1-b8ac4486169a" testName="GetRootTest" computerName="OMAR-PC" duration="00:00:00.0007633" startTime="2012-07-02T14:38:22.5184454+02:00" endTime="2012-07-02T14:38:22.5714484+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a0cf697-b022-4322-859f-909b106d590d">
+    </UnitTestResult>
+    <UnitTestResult executionId="65dbb545-707f-4ef3-b2aa-b4faa559b281" testId="bbb236b5-352b-71a3-4fd1-2f589762cea1" testName="QuickSortTest" computerName="OMAR-PC" duration="00:00:00.0070485" startTime="2012-07-02T14:38:22.5724485+02:00" endTime="2012-07-02T14:38:22.5884494+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65dbb545-707f-4ef3-b2aa-b4faa559b281">
+    </UnitTestResult>
+    <UnitTestResult executionId="d9ad49e4-a390-42a4-af63-853951dba3f1" testId="cbe29bfd-dc07-6cdc-730f-2d4d4d6932b7" testName="SolveTest" computerName="OMAR-PC" duration="00:00:00.0918887" startTime="2012-07-02T14:38:22.5894494+02:00" endTime="2012-07-02T14:38:22.6904552+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9ad49e4-a390-42a4-af63-853951dba3f1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UnitTests.KruskalTest.SolveTest threw exception: 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+          <StackTrace>    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Kruskal.Kruskal.QuickSort(IList`1 graph, Int32 left, Int32 right) in C:\Users\Omar\Downloads\KruskalAlgorithm\Kruskal\Implementation\Kruskal.cs:line 40
+   at Kruskal.Kruskal.Kruskal.IKruskal.Solve(IList`1 graph, Int32&amp; totalCost) in C:\Users\Omar\Downloads\KruskalAlgorithm\Kruskal\Implementation\Kruskal.cs:line 12
+   at UnitTests.KruskalTest.SolveTest() in C:\Users\Omar\Downloads\KruskalAlgorithm\UnitTests\AlgorithmTest\KruskalTest.cs:line 25
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="12fcb664-a447-4251-9dcb-e92f91f0cf9e" testId="e32a97e2-bc53-e3e5-0d2d-e94f0d5c9e79" testName="VertexConstructorTest" computerName="OMAR-PC" duration="00:00:00.0005724" startTime="2012-07-02T14:38:22.6974556+02:00" endTime="2012-07-02T14:38:22.7054561+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12fcb664-a447-4251-9dcb-e92f91f0cf9e">
+    </UnitTestResult>
+  </Results>
+</TestRun>

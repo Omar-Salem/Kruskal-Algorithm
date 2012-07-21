@@ -1,0 +1,5 @@
+C:\Users\Omar\Downloads\KruskalAlgorithm\Kruskal\bin\Debug\Kruskal.dll
+C:\Users\Omar\Downloads\KruskalAlgorithm\Kruskal\bin\Debug\Kruskal.pdb
+C:\Users\Omar\Downloads\KruskalAlgorithm\Kruskal\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Omar\Downloads\KruskalAlgorithm\Kruskal\obj\Debug\Kruskal.dll
+C:\Users\Omar\Downloads\KruskalAlgorithm\Kruskal\obj\Debug\Kruskal.pdb
